@@ -53,10 +53,6 @@ class Person {
         return false;
     }
 
-    public List<Product> getBag() {
-        return new ArrayList<>(bag); // Возвращаем копию для защиты от изменений
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
